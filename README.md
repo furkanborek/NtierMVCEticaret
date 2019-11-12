@@ -5,7 +5,7 @@ E Ticaret Sitesi Dokümantasyon
 
 Proje Açıklaması
 E-Ticaret sitesi olarak yazılan bu proje de kullanıcı sitede istediği kategorideki ürünler arasında dolaşabilir ve ürünlerde filtreleme yapabilir. Kullanıcı istediği ürünü sepetine atabilir ve istediğinde sepetinde hangi ürünlerin bulunduğunu ve toplam olarak ne kadar ödemesi gerektiğini görebilir. Satın alma işlemini yapmak istediğinde kart bilgilerini ve adresini girerek satın alma işlemini tamamlar.
-                           Projenin Teknik Bilgileri
+                           #Projenin Teknik Bilgileri
 
 1)	Ntier ve MVC Mimari
 2)	Code First EAV modeli Veri Tabanı
