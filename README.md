@@ -5,22 +5,22 @@ E Ticaret Sitesi Dokümantasyon
 
 Proje Açıklaması
 E-Ticaret sitesi olarak yazılan bu proje de kullanıcı sitede istediği kategorideki ürünler arasında dolaşabilir ve ürünlerde filtreleme yapabilir. Kullanıcı istediği ürünü sepetine atabilir ve istediğinde sepetinde hangi ürünlerin bulunduğunu ve toplam olarak ne kadar ödemesi gerektiğini görebilir. Satın alma işlemini yapmak istediğinde kart bilgilerini ve adresini girerek satın alma işlemini tamamlar.
-Projenin Teknik Bilgileri
+                           Projenin Teknik Bilgileri
 
-	Ntier ve MVC Mimari
-	Code First EAV modeli Veri Tabanı
-	Mail Gönderme, Fotoğraf Yükleme ve Şifreleme Sınıfları
-	Web Api Kullanımı:
-1)	Kargo Api
-2)	Loglama Api
-3)	Fake Data Api
-	Önyüz tasarımında Kullanılanlar:
-1)	Javascript
-2)	Ajax
-	Admin Özel Sayfa (Urun ekleme vb. için)
-	Member için sayfalar
+1)	Ntier ve MVC Mimari
+2)	Code First EAV modeli Veri Tabanı
+3)	Mail Gönderme, Fotoğraf Yükleme ve Şifreleme Sınıfları
+4)	Web Api Kullanımı:
+    a)	Kargo Api
+    b)	Loglama Api
+    c)	Fake Data Api
+5)  Önyüz tasarımında Kullanılanlar:
+    a)  Javascript
+    b)	Ajax
+6)	Admin Özel Sayfa (Urun ekleme vb. için)
+7)	Member için sayfalar
 
-Master’ın Görevleri
+                          Master’ın Görevleri
 
 	Proje Başlangıcında Projenin Mimarisini oluşturmak, gerekli sınıfları projeye entegre etmek ve referansları vermek
 	Projenin yapılış zamanı sürecinde proje çalışanlarının yaptıkları işlemlerde onları gözlemlemek ve çıkan sorunlarda eğer takım arkadaşı o sorunu çözemiyorsa sorunun çözümünü devir alarak sorunu çözmek
@@ -29,9 +29,9 @@ Master’ın Görevleri
 
 Önemli Bilgi: Proje deki göreve başlarken master’ın söylediği zamanda başlamaya dikkat edilmelidir. Master’in sizin proje üzerinde çalıştığınızdan haberi olmalıdır. Önemli işlemleri (commit vb.) işlemler yapılırken master’a bilgi verilmeli ve onay beklenmelidir. Projeye başlarken projenin güncel halini master’dan çektiğinize emin olmalısınız.
 
-Görev Dağılımı
+                          Görev Dağılımı
 
-	Furkan BÖREK (Master)
+#	Furkan BÖREK (Master)
 1)	Ntier ve MVC mimarisinin kurulması
 2)	Gerekli Framework’lerin indirilmesi
 3)	Katmanlar arasında referansların verilmesi
@@ -40,7 +40,7 @@ Görev Dağılımı
 6)	Web sitesi görsellerinin MVCUI katmanında mevcut hale getirilmesi
 7)	Katmanlardaki gerekli klasörlerin açılması (Design Patterns vb.)
 
-	Esra SANCAK
+#	Esra SANCAK
 1)	Veri tabanın Code First yazılması
 2)	Veri tabanına EAV modelinin entegrasyonu
 3)	Ürün ile Kategori arasında ilişkinin çoka çok olarak yapılması
@@ -48,30 +48,32 @@ Görev Dağılımı
 5)	DAL katmanında MyContext sınıfının oluşturulup Veritabanı işlemlerini sonlandırmak. Connection name =”MyConnection”
 6)	Strategy patterni
 7)	BLL katmanında Repository’lerin oluşturulması
-	Tarık 
+
+#	Tarık 
 1)	İlk olarak Kargo Firmasının Web Api’si yazılacak
 2)	Backend kodları yazılacak(Enes ile ortak çalışarak)
-	ENES
+
+#	ENES
 1)	İlk olarak Loglama Api’si yazılacak
 2)	Ek veritabanı
 3)	Backend kodları yazılacak(Tarık ile ortak çalışarak)
-	CEM
+
+#	CEM
 1)	Frontend Kodları yazılacak ve Gökhan ile birlikte ortaklaşa çalışacaklar.
-	GÖKHAN
+
+#	GÖKHAN
 1)	Frontend Kodları yazılacak ve Cem ile birlikte ortaklaşa çalışacaklar.
-	OZAN
+
+#	OZAN
 1)	Api Entegrasyonu E Ticaret
-	Alp
+
+#	Alp
 1)	Proje master’a gelmeden önce detaylı test işleminden geçecek.
 
 
 
-
-
-
-
-Yapılanlar
-	Master
+                          Yapılanlar
+#	Master
 1)	Bogus Dal katmanına yüklendi
 2)	EntityFramework 6.2.0 BLL, COMMON, DAL, MAP, MVCUI katmanlarına yüklendi
 3)	Microsoft. AspNet. WebApi. Client 5.2.7 MVCUI katmanına yüklendi
@@ -83,7 +85,7 @@ Yapılanlar
 9)	COMMON katmanına Mail gönderme, Fotoğraf yükleme, Şifreleme Sınıfları eklendi
 10)	MVC FlatAdmin Eklendi
 
-Zaman Yönetimi
+                          Zaman Yönetimi
 1)	Tarık => 4 gün  (Api entegrasyonu Kargo)------- 14 de basla
 2)	Ozan => (Api Entegrasyonu E Ticaret) -------- 14 de basla
 3)	Esra => 4 gün (veri tabanı) ------ 14 de basla
