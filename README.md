@@ -3,9 +3,10 @@ YMS3132 Öğrencileri Tarafından Geliştirilmekte Olan bir E-Ticaret Sitesi Pro
 
 E Ticaret Sitesi Dokümantasyon
 
-Proje Açıklaması
+# Proje Açıklaması
 E-Ticaret sitesi olarak yazılan bu proje de kullanıcı sitede istediği kategorideki ürünler arasında dolaşabilir ve ürünlerde filtreleme yapabilir. Kullanıcı istediği ürünü sepetine atabilir ve istediğinde sepetinde hangi ürünlerin bulunduğunu ve toplam olarak ne kadar ödemesi gerektiğini görebilir. Satın alma işlemini yapmak istediğinde kart bilgilerini ve adresini girerek satın alma işlemini tamamlar.
-                           #Projenin Teknik Bilgileri
+
+# Projenin Teknik Bilgileri
 
 1)	Ntier ve MVC Mimari
 2)	Code First EAV modeli Veri Tabanı
@@ -20,7 +21,7 @@ E-Ticaret sitesi olarak yazılan bu proje de kullanıcı sitede istediği katego
 6)	Admin Özel Sayfa (Urun ekleme vb. için)
 7)	Member için sayfalar
 
-                          Master’ın Görevleri
+# Master’ın Görevleri
 
 	Proje Başlangıcında Projenin Mimarisini oluşturmak, gerekli sınıfları projeye entegre etmek ve referansları vermek
 	Projenin yapılış zamanı sürecinde proje çalışanlarının yaptıkları işlemlerde onları gözlemlemek ve çıkan sorunlarda eğer takım arkadaşı o sorunu çözemiyorsa sorunun çözümünü devir alarak sorunu çözmek
@@ -29,7 +30,7 @@ E-Ticaret sitesi olarak yazılan bu proje de kullanıcı sitede istediği katego
 
 Önemli Bilgi: Proje deki göreve başlarken master’ın söylediği zamanda başlamaya dikkat edilmelidir. Master’in sizin proje üzerinde çalıştığınızdan haberi olmalıdır. Önemli işlemleri (commit vb.) işlemler yapılırken master’a bilgi verilmeli ve onay beklenmelidir. Projeye başlarken projenin güncel halini master’dan çektiğinize emin olmalısınız.
 
-                          Görev Dağılımı
+# Görev Dağılımı
 
 #	Furkan BÖREK (Master)
 1)	Ntier ve MVC mimarisinin kurulması
@@ -72,7 +73,7 @@ E-Ticaret sitesi olarak yazılan bu proje de kullanıcı sitede istediği katego
 
 
 
-                          Yapılanlar
+# Yapılanlar
 #	Master
 1)	Bogus Dal katmanına yüklendi
 2)	EntityFramework 6.2.0 BLL, COMMON, DAL, MAP, MVCUI katmanlarına yüklendi
@@ -85,7 +86,7 @@ E-Ticaret sitesi olarak yazılan bu proje de kullanıcı sitede istediği katego
 9)	COMMON katmanına Mail gönderme, Fotoğraf yükleme, Şifreleme Sınıfları eklendi
 10)	MVC FlatAdmin Eklendi
 
-                          Zaman Yönetimi
+# Zaman Yönetimi
 1)	Tarık => 4 gün  (Api entegrasyonu Kargo)------- 14 de basla
 2)	Ozan => (Api Entegrasyonu E Ticaret) -------- 14 de basla
 3)	Esra => 4 gün (veri tabanı) ------ 14 de basla
