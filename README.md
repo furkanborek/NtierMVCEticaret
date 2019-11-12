@@ -1,7 +1,7 @@
 # NtierMVCEticaret
 YMS3132 Öğrencileri Tarafından Geliştirilmekte Olan bir E-Ticaret Sitesi Projesidir.
 
-E Ticaret Sitesi Dokümantasyon
+# E Ticaret Sitesi Dokümantasyon
 
 # Proje Açıklaması
 E-Ticaret sitesi olarak yazılan bu proje de kullanıcı sitede istediği kategorideki ürünler arasında dolaşabilir ve ürünlerde filtreleme yapabilir. Kullanıcı istediği ürünü sepetine atabilir ve istediğinde sepetinde hangi ürünlerin bulunduğunu ve toplam olarak ne kadar ödemesi gerektiğini görebilir. Satın alma işlemini yapmak istediğinde kart bilgilerini ve adresini girerek satın alma işlemini tamamlar.
@@ -23,10 +23,10 @@ E-Ticaret sitesi olarak yazılan bu proje de kullanıcı sitede istediği katego
 
 # Master’ın Görevleri
 
-	Proje Başlangıcında Projenin Mimarisini oluşturmak, gerekli sınıfları projeye entegre etmek ve referansları vermek
-	Projenin yapılış zamanı sürecinde proje çalışanlarının yaptıkları işlemlerde onları gözlemlemek ve çıkan sorunlarda eğer takım arkadaşı o sorunu çözemiyorsa sorunun çözümünü devir alarak sorunu çözmek
-	Takım arkadaşlarının psikolojik durumlarını göz önünde bulundurmak ve takım arkadaşlarına destekçi olmak
-	Proje çalışanı kendi üzerine düşen görevi tamamladıktan sonra commit ve push işlemlerinden önce güncel projede çalıştığının teyidini almak ve projenin güncel versiyonunda çalıştığının onayını altıktan sonra commit etmesi sonucunda Master olarak projeyi o kişiden çekerek Master’i güncel tutmak.
+1)	Proje Başlangıcında Projenin Mimarisini oluşturmak, gerekli sınıfları projeye entegre etmek ve referansları vermek
+2)	Projenin yapılış zamanı sürecinde proje çalışanlarının yaptıkları işlemlerde onları gözlemlemek ve çıkan sorunlarda eğer takım arkadaşı o sorunu çözemiyorsa sorunun çözümünü devir alarak sorunu çözmek
+3)	Takım arkadaşlarının psikolojik durumlarını göz önünde bulundurmak ve takım arkadaşlarına destekçi olmak
+4)	Proje çalışanı kendi üzerine düşen görevi tamamladıktan sonra commit ve push işlemlerinden önce güncel projede çalıştığının teyidini almak ve projenin güncel versiyonunda çalıştığının onayını altıktan sonra commit etmesi sonucunda Master olarak projeyi o kişiden çekerek Master’i güncel tutmak.
 
 Önemli Bilgi: Proje deki göreve başlarken master’ın söylediği zamanda başlamaya dikkat edilmelidir. Master’in sizin proje üzerinde çalıştığınızdan haberi olmalıdır. Önemli işlemleri (commit vb.) işlemler yapılırken master’a bilgi verilmeli ve onay beklenmelidir. Projeye başlarken projenin güncel halini master’dan çektiğinize emin olmalısınız.
 
