@@ -48,13 +48,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DesignPatterns\SingletonPattern\DBTool.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DesignPatterns\RepositoryPattern\BaseRep\" />
     <Folder Include="DesignPatterns\RepositoryPattern\ConcRep\" />
     <Folder Include="DesignPatterns\RepositoryPattern\IntRep\" />
-    <Folder Include="DesignPatterns\SingletonPattern\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
